@@ -1,0 +1,85 @@
+:root {
+  --primary-color: rgb(163, 162, 162);
+  --primary-color-dark: rgb(19, 18, 18);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+}
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  border-radius: 25px;
+  border: none;
+}
+table {
+  font-size: 16px;
+  display: flex;
+  justify-content: space-around;
+}
+td {
+  padding: 3px;
+}
+
+form input,
+form label,
+form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+  border-radius: 10px;
+}
+form input:focus {
+  outline: 1px solid blue;
+}
+
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+  border-radius: 30px;
+}
+
+form button:hover {
+  background: var(--primary-color-dark);
+  color: white;
+}
+form button:active {
+  background: rgb(136, 7, 7);
+  color: white;
+}
+
+.paragrafo-resultado,
+.error {
+  text-align: center;
+  padding: 10px 20px;
+  background: rgb(30, 161, 30);
+  color: white;
+  border-radius: 20px;
+}
+.error {
+  background: rgb(235, 12, 12);
+}
