@@ -5,7 +5,7 @@ const data = new Date();
 function getDiaSemanaTexto(diaSemana) {
     let diaSemanaTexto;
 
-    switch (diadasemana) {
+    switch (diaSemana) {
         case 0:
             diaSemanaTexto = 'Domingo';
             return diaSemanaTexto;
