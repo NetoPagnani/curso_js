@@ -98,7 +98,7 @@ function criaData(data) {
 
 }
 
-h1.innerHTML = criaData();
+h1.innerHTML = criaData(data);
 
 
 
